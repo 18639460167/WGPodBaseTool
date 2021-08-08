@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WGPodBaseTool_Example' do
+  pod 'WGPodBaseTool', :path => '../'
+
+  target 'WGPodBaseTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

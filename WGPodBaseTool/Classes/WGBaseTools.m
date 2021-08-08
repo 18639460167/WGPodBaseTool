@@ -10,7 +10,7 @@
 @implementation WGBaseTools
 
 - (void)test {
-    NSLog(@"这是一个测试～～～～");
+    NSLog(@"这是一个测试～～～～%@", self.name);
 }
 
 @end
